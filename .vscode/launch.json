@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "attach ng serve (HTTPS)",
+      "type": "chrome",
+      "request": "attach",
+      // "url": "https://192.168.0.100:4200",
+      "preLaunchTask": "npm: start",
+      "webRoot": "${workspaceFolder}",
+      "disableNetworkCache": true,
+      "port": 9222
+    }
+  ]
+}
